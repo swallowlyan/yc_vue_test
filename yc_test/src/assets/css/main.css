@@ -1,0 +1,38 @@
+.topTitle{
+  height: 55px;
+}
+.topTitle img{
+  height: 45px;
+  padding: 5px;
+  float: left;
+  margin-left: 20px;
+}
+.topTitle h3{
+  width: 200px;
+  padding-top: 12px;
+  color: black;
+  margin-left: -60px;
+}
+.division {
+  float: left;
+  width: 2px;
+  height: 60%;
+  background: #dedbdb;
+  margin: 10px 20px;
+}
+.topBar{
+  background-color: #447EDF;
+  height: 35px;
+}
+.el-icon-more{
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px;
+  min-height: 35px;
+  margin: 0px 5px;
+}
+.topBar .el-dropdown{
+  float: right;;
+  margin-right: 20px;
+}
+
