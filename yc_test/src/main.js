@@ -10,12 +10,14 @@ import axios from 'axios'
 import qs from 'qs'
 import 'element-ui/lib/theme-chalk/index.css'
 import 'font-awesome/css/font-awesome.css'
-import "./assets/css/common/mianStyle.css"
+// import "./assets/css/common/mianStyle.css"
+import echarts from 'echarts'
 
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 Vue.use(VueResource)
 Vue.prototype.$axios = axios;
+Vue.prototype.$echarts = echarts
 /*axios.defaults.headers.post['Content-Type'] = 'application/json';
 axios.defaults.headers = { 'Content-Type': 'application/x-www-form-urlencoded'};*/
 //设置token

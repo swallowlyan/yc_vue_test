@@ -36,7 +36,7 @@
         </el-row>
       </el-header>
       <el-container>
-      <el-aside width="150px">
+      <el-aside width="auto">
         <el-menu default-active="1-4-1" class="el-menu-vertical-demo" :collapse="isCollapse">
           <el-menu-item index="1">
             <i class="el-icon-menu"></i>
